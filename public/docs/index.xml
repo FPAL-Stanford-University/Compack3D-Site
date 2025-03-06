@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation &amp; User Guide on Compack3D</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Documentation &amp; User Guide on Compack3D</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/docs/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/install/</guid>
+      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Compack3D&lt;/em&gt; is implemented in C++ using the C++20 standard. The parallelization follows the &amp;ldquo;MPI+X&amp;rdquo; paradiam. The following packages are required:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C++ compiler&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;X&amp;rdquo; compiler for CUDA or HIP&lt;/li&gt;&#xA;&lt;li&gt;CMake (minimum version 3.23)&lt;/li&gt;&#xA;&lt;li&gt;Message Passing Interface (MPI)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    The HIP feature is still under development.&#xA;The package will be updated soon.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;download-compack3d&#34;&gt;Download &lt;em&gt;Compack3D&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The source code of &lt;a href=&#34;https://github.com/songhanglucky/Compack3D/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Compack3D&lt;/em&gt;&lt;/a&gt;&#xA; is hosted on GitHub.&#xA;It is highly recommended to obtain the source code using Git.&#xA;In order to do this, navigate to the target directory where the &lt;em&gt;Compack3D&lt;/em&gt; is expected to be placed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Usage</title>
+      <link>http://localhost:1313/docs/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/usage/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Compack3D&lt;/em&gt; is mostly implemented in C++, and it also provides Fortran interfaces using &lt;code&gt;ISO_C_BINDING&lt;/code&gt;.&#xA;In order to improve the performance, the tridiagonal and penta-diagonal solvers in &lt;em&gt;Compack3D&lt;/em&gt; prefactorize the linear systems.&#xA;Buffer for distributed communication is also required.&#xA;Depending on the system size, grid decomposition strategy, device that supports the solution process, and communication pattern,&#xA;the allocation of the buffer variables is application specific.&#xA;Additionally, the buffer may be able to reused for solving different linear systems on the same computational grid.&#xA;&lt;em&gt;Compack3D&lt;/em&gt; supports customized memory allocation and management.&#xA;It also provides built-in memory allocators and deallocators.&#xA;The tridiagonal and pental-diagonal solvers in &lt;em&gt;Compack3D&lt;/em&gt; can be used in either pure function calls or object member function calls.&#xA;From the perspective of simplifying the memory management, object member function calls are recommended.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Benchmark Performance</title>
+      <link>http://localhost:1313/docs/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/performance/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Benchmark performance&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

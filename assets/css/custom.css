@@ -1,0 +1,5 @@
+figure figcaption {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  font-style: italic; /* Optional: make it italic */
+  color: #333; /* Optional: change caption text color */
+}
