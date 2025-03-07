@@ -27,15 +27,15 @@ Compack3D is released under the [Apache-2.0 License](https://www.apache.org/lice
 
 {{< blocks/section color="dark" type="row" >}}
 
-{{% blocks/feature icon="fa-solids fa-book" title="Know more details!" url="/docs/" %}}
+{{% blocks/feature icon="fa-solids fa-book" title="Know more details!" url=docs %}}
 Documentation of the software usage, detailed algorithms, and benchmark performance.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-users" title="Join user community!" url="/community/" %}}
+{{% blocks/feature icon="fa-users" title="Join user community!" url=community %}}
 Join us and share your experience, comments or questions, and get quick response from the code developement team.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-rss" title="Get updates and join our events!" url="/events/" %}}
+{{% blocks/feature icon="fas fa-rss" title="Get updates and join our events!" url=events %}}
 For news of events and announcement of releases.
 {{% /blocks/feature %}}
 
