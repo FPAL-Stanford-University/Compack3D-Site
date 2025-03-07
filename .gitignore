@@ -4,6 +4,7 @@
 *.so
 *.dat
 build*
+public/*
 tmp*
 local_test_*
 __pycache__
