@@ -4,7 +4,7 @@ linkTitle = "Compack3D"
 +++
 {{< blocks/cover title="Compack3D" image_anchor="center" font="bold" height="full" color="primary" >}}
 <div class="mx-auto">
-        <p class="lead mt-1"><b>Open Source Parallel Linear Solvers for Scientific Computing Using Compack Finite Difference Methods</b></p>
+        <p class="lead mt-1"><b>Open Source Parallel Linear Solvers for Scientific Computing Using Compact Finite Difference Methods</b></p>
 	<a class="btn btn-lg btn-primary me-3 mb-4" href="{{< relref "docs" >}}">
 		Learn More <i class="fa-solid fa-circle-right ms-2"></i>
 	</a>
