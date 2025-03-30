@@ -23,22 +23,22 @@ The package will be updated soon.
 ## Download *Compack3D*
 
 The source code of [*Compack3D*](https://github.com/songhanglucky/Compack3D/tree/master) is hosted on GitHub.
-It is highly recommended to obtain the source code using Git.
-In order to do this, navigate to the target directory where the *Compack3D* is expected to be placed.
+We highly recommend that users obtain the source code using Git.
+To do this, navigate to the target directory where the *Compack3D* will be placed and paste the following command:
 ```bash
 git clone git@github.com:songhanglucky/Compack3D.git
 ```
 
 
 ## Configuration using CMake
-*Compack3D* provids CMake support to build the project.
+*Compack3D* provides CMake support to build the project.
 CMake v3.23 or above is required.
 To build *Compack3D*, first navigate into the *Compack3D* root directory `<path/to>/Compack3D/`.
-Then create a build directory and navigate into it.
+Then, create a build directory and navigate into it.
 ```bash
 mkdir build && cd build
 ```
-Make sure to load all necessary modules, e.g., compilers, CMake, MPI.
+Make sure to load all necessary modules, e.g., compilers, CMake, and MPI.
 ```bash
 cmake -D<optoinal_var_0>=<val_0> -D<optional_var_1>=<val_1> ..
 ```
@@ -53,7 +53,7 @@ Available optional variables are listed in the following table.
 |`COMPACK3D_ENABLE_DEVICE_AWARE_COMM`| `BOOL` | If enabled, use GPU-to-GPU communication.|
 |`COMPACK3D_BUILD_UNIT_TESTS`| `BOOL` | Compile unit tests associated with the specified device. |
 |`COMPACK3D_BUILD_BENCHMARK_TESTS`|`BOOL`| Compile benchmark tests associated with the specified device.|
-|`COMPACK3D_MPI_EXEC_PREFIX`| `STRING` | MPI launcher and flags, required for unit tests. This value can be alternatively set by environmental variable `COMPACK3D_MPI_EXEC_PREFIX`. Default value is `mpiexec -n 1`, and a warning will be rased.|
+|`COMPACK3D_MPI_EXEC_PREFIX`| `STRING` | MPI launcher and flags, required for unit tests. This value can be alternatively set by environmental variable `COMPACK3D_MPI_EXEC_PREFIX`. Default value is `mpiexec -n 1`, and a warning will be raised.|
 
 
 ## Linking to your own project
